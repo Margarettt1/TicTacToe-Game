@@ -45,7 +45,7 @@ def tic_tac_toe():
             print('That cell is already occupied. Try again.')
             continue
 
-        if check_winner(board):
+        if check_winner(board): # tekst
             print_board(board)
             print('Player', player, 'wins!')
             break
